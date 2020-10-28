@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 70686750}
   - component: {fileID: 70686749}
   m_Layer: 5
-  m_Name: ImageRick
+  m_Name: ImageBen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 17f45c9dea801416d946c7cb92202538, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d105d6b77ee52473cbfc6fd0ee1dcfa0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: START
+  m_text: PLAY  AGAIN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f92d6b047cbe74ad6a15cf09585bab98, type: 2}
   m_sharedMaterial: {fileID: 2962548423291749248, guid: f92d6b047cbe74ad6a15cf09585bab98,
