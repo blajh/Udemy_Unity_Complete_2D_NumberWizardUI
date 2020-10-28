@@ -16,7 +16,7 @@ public class NumberWizard : MonoBehaviour
 
     void Start()
     {
-        CalculateGuess();
+        MakeGuess();
     }
 
     void Update()
@@ -34,8 +34,9 @@ public class NumberWizard : MonoBehaviour
         if (minNumber == 999 && maxNumber == 1000) { 
             maxNumber++;
         }
-		//although this would normally be enough
-        guess = (minNumber + maxNumber) / 2;
+		//non-random version uses optimised approach
+		//guess = (minNumber + maxNumber) / 2;
+        guess = Random.Range(minNumber, maxNumber + 1);
         StateGuess();
 	}
 
