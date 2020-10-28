@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 1092966946}
   - component: {fileID: 1092966945}
   m_Layer: 5
-  m_Name: Success Button
+  m_Name: Correct Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1391,7 +1391,7 @@ GameObject:
   - component: {fileID: 1096410915}
   - component: {fileID: 1096410914}
   m_Layer: 5
-  m_Name: SuccessText (TMP)
+  m_Name: Correct Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1435,7 +1435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SUCCESS
+  m_text: Correct
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f92d6b047cbe74ad6a15cf09585bab98, type: 2}
   m_sharedMaterial: {fileID: 2962548423291749248, guid: f92d6b047cbe74ad6a15cf09585bab98,

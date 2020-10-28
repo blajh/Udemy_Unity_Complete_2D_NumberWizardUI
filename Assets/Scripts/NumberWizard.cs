@@ -31,11 +31,14 @@ public class NumberWizard : MonoBehaviour
 
 	private void CalculateGuess() {
         //account for odd / 2 integer rounding
-        if (minNumber == 999 && maxNumber == 1000) { 
-            maxNumber++;
-        }
-		//non-random version uses optimised approach
-		//guess = (minNumber + maxNumber) / 2;
+        //only needed for non-random version
+        //if (minNumber == 999 && maxNumber == 1000) { 
+        //maxNumber++;
+        //}
+
+
+        //non-random version uses optimised approach
+        //guess = (minNumber + maxNumber) / 2;
         guess = Random.Range(minNumber, maxNumber + 1);
         StateGuess();
 	}
